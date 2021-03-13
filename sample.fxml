@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="88.0" prefHeight="312.0" prefWidth="700.0" style="-fx-background-color: fafafa;">
+         <children>
+            <TextField fx:id="login_field" layoutX="175.0" layoutY="61.0" prefHeight="28.0" prefWidth="334.0" promptText="Логин" style="-fx-border-color: silver; -fx-border-radius: 4;" />
+            <PasswordField fx:id="password_field" layoutX="175.0" layoutY="128.0" prefHeight="28.0" prefWidth="334.0" promptText="Пароль" style="-fx-border-color: silver; -fx-border-radius: 4;" />
+            <Label layoutX="271.0" layoutY="7.0" prefHeight="35.0" prefWidth="158.0" text="Авторизация" textFill="#5b5959">
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="authSignInButton" layoutX="297.0" layoutY="221.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="91.0" style="-fx-background-color: #778899;" text="Войти" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="240.0" layoutY="8.0" text="ItProger" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="56.0" />
+         </font>
+      </Label>
+      <Button fx:id="LoginSignUpButton" layoutX="506.0" layoutY="14.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="180.0" style="-fx-background-color: #778899;" text="Зарегистрироваться" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
